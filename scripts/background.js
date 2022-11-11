@@ -1,5 +1,5 @@
 let properties = {
     "title": "WhatsUp",
-    "url": "https://messages.google.com/web"
+    "url": "https://web.whatsapp.com"
 }
 messenger.spacesToolbar.addButton("WhatsApp", properties)
