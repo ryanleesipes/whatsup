@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "WhatsUp",
+    "description": "Use WhatsApp in Thunderbird!",
+    "version": "1.0",
+    "author": "Ryan Sipes",
+    "applications": {
+        "gecko": {
+            "id": "whatsup@sipes.us",
+            "strict_min_version": "102.0"
+        }
+    },
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ]
+    },
+    "icons": {
+        "64": "images/whatsapp.svg",
+        "32": "images/whatsapp.svg",
+        "16": "images/whatsapp.svg"
+    }
+}
