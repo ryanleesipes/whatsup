@@ -15,6 +15,12 @@
             "scripts/background.js"
         ]
     },
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "https://*.whatsapp.com/*",
+      "https://*.whatsapp.net/*"
+    ],
     "icons": {
         "64": "images/whatsapp.svg",
         "32": "images/whatsapp.svg",
